@@ -1,51 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>CONNETTORE - TESTING PAGE</title>
 </head>
+
 <body>
-    <h1>CONNETTORE - TESTING PAGE</h1>
-    <form action="#">
-        <div>
-            <label for="firstname">NOME</label>
-            <input type="text" name="firstname" id="firstname" placeholder="firstname">
-            <br><br>
+
+    <!-- NAVBAR BOOTSTRAP-->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">CONNETTORE - TESTING PAGE</a>
         </div>
-        <div>
-            <label for="lastname">COGNOME</label>
-            <input type="text" name="lastname" id="lastname" placeholder="lastname">
-            <br><br>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#section2">POWERED BY</a></li>
+            <li><a href="#section3">ABOUT</a></li>
+            <li><a href="#section4">CONTACT ME</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <!-- SEZIONE 1 -->
+    <section id="section1">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-xs-12">
+              <img src="img/avatar.svg" alt="avatar">
+              <h1>START CONNECTOR</h1>
+              <hr class="star-line">
+              <i class="fas fa-star"></i>
+              <hr class="star-line">
+              <!-- <h3>Graphic Artist - Web Designer - Illustrator</h3> -->
+          </div>
+
         </div>
-        <div>
-            <label for="customer">RAG. SOCIALE</label>
-            <input type="text" name="customer" id="customer" placeholder="customer">
-            <br><br>
+
+      </div>
+    </section>
+
+    <!-- SEZIONE 2 - PORTFOLIO-->
+    <section id="section2">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-xs-12">
+            <div>
+              <h2>POWERED BY</h2>
+              <hr class="star-line">
+              <i class="fas fa-star"></i>
+              <hr class="star-line">
+            </div>
+          </div>
+
         </div>
-        <div>
-            <label for="city">CITTA'</label>
-            <input type="text" name="city" id="city" placeholder="city">
-            <br><br>
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="https://www.apping.it">
+              <div class="immagini">
+                <div class="layover">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/apping.jpg" alt="cabin">
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="http://www.sales2app.com/">
+              <div class="immagini">
+                <div class="layover">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/s2a.jpg" alt="cake">
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="https://www.smeup.com">
+              <div class="immagini">
+                <div class="layover">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/up.jpg" alt="circus">
+              </div>
+            </a>
+          </div>
+          <!-- <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="index.html">
+              <div class="immagini">
+                <div class="layover">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/game.png" alt="game">
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="index.html">
+              <div class="immagini">
+                <div class="layover">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/safe.png" alt="safe">
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="index.html">
+              <div class="immagini">
+                <div class="layover">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/submarine.png" alt="submarine">
+              </div>
+            </a>
+          </div> -->
+
+
         </div>
-        <div>
-            <label for="address">INDIRIZZO</label>
-            <input type="text" name="address" id="address" placeholder="address">
-            <br><br>
+
+      </div>
+    </section>
+
+    <!-- SEZIONE 3 - ABOUT -->
+    <section id="section3">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>ABOUT</h2>
+            <hr class="star-line">
+            <i class="fas fa-star"></i>
+            <hr class="star-line">
+          </div>
         </div>
-        <div>
-            <label for="email">EMAIL</label>
-            <input type="text" name="email" id="email" placeholder="email">
-            <br><br>
+
+        <div class="centrale">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus doloribus, commodi facilis delectus eos, suscipit, architecto incidunt sapiente modi fugit sequi magni officiis id recusandae deleniti aliquid quas asperiores fugiat.
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab repellat dolorum nostrum sint quia dicta alias recusandae aliquid ipsum repudiandae, iure deserunt eum quisquam eveniet distinctio ducimus quas. Placeat.
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-            <label for="phone">PHONE</label>
-            <input type="text" name="phone" id="phone" placeholder="phone">
-            <br><br>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="free-download">
+              <a href="index.html"><i class="fas fa-download"></i> Free Download!</a>
+            </div>
+          </div>
         </div>
-        <button type="submit">SUBMIT</button>
-    </form>
+
+
+      </div>
+    </section>
+
+    <!-- SEZIONE 4 - CONTACT ME -->
+    <section id="section4">
+      <div class="container">
+
+        <div class="centrale">
+          <div class="row">
+
+            <div class="col-xs-12">
+
+              <div id="contact-me">
+                <h2>CONTACT ME</h2>
+                <hr class="star-line">
+                <i class="fas fa-star"></i>
+                <hr class="star-line">
+              </div>
+
+              <div id="input-grup" class="clearfix">
+
+                <div class="input-group input-group-lg">
+                  <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Nome" aria-describedby="sizing-addon1">
+                </div>
+
+                <hr>
+
+                <div class="input-group input-group-lg">
+                  <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Cognome" aria-describedby="sizing-addon1">
+                </div>
+
+                <hr>
+
+                <div class="input-group input-group-lg">
+                    <input type="text" name="customer" id="customer" class="form-control" placeholder="Ragione Sociale Azienda" aria-describedby="sizing-addon1">
+                </div>
+
+                <hr>
+
+                <div class="input-group input-group-lg">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" aria-describedby="sizing-addon1">
+                </div>
+
+                <hr>
+
+                <div class="input-group input-group-lg">
+                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Telefono" aria-describedby="sizing-addon1">
+                </div>
+
+                <hr>
+
+                <div class="input-group input-group-lg">
+                  <input type="textarea" name="note" id="note" class="form-control" placeholder="Messaggio" aria-describedby="sizing-addon1">
+                </div>
+
+                <hr>
+
+                <button type="button" class="btn btn-default">Send</button>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+      <!-- footer top -->
+      <div id="footer-top">
+        <div class="container">
+          <div class="row" >
+
+            <div class="col-xs-12 col-md-4 col-lg-4">
+              <h3>LOCATION</h3>
+              <div id="address">
+                2215 John Daniel Drive<br>Clark, MO 65243
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4 col-lg-4">
+              <h3>AROUND THE WEB</h3>
+              <div id="social">
+                <a href="index.html"><i class="fab fa-facebook-f"></i></a>
+                <a href="index.html"><i class="fab fa-twitter"></i></a>
+                <a href="index.html"><i class="fab fa-linkedin-in"></i></a>
+                <a href="index.html"><i class="fas fa-basketball-ball"></i></a>
+              </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-4 col-lg-4">
+              <h3>ABOUT FREELANCER</h3>
+              <div id="about-freelancer">
+                Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="inde.html">Start Bootstrap</a>.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- footer bottom -->
+      <div id="footer-bottom">
+        <div class="container">
+          <div class="row" >
+            <div class="col-xs-12">
+              Copyright © Your Website 2020
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+
     <script language="javascript" type="text/javascript" src="https://app.sales2app.it/public/inwegadev/connectors/quc4td196dckaahj5sbwxjr2tflkyfv79xnyzzwb/init.js"></script>
 </body>
 </html>
