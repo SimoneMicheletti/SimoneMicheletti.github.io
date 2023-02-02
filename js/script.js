@@ -17,20 +17,4 @@ $(document).ready(function() {
             },
         });
     })
-
-    // Funzione di output
-    setInterval(() => {
-        $.ajax({
-            type: "GET",
-            url: dbUrl,
-            success: function(response) {
-                $.each(response, function( idMessaggio, testoMessaggio ) {
-                    if ($.inArray(idMessaggio,messaggiMostrati) === -1) {
-                        $('#lista').append(`<li>${testoMessaggio}</li>`);
-                        messaggiMostrati.push(idMessaggio);
-                    }
-                });
-            },
-        });
-    }, 3000);
 });
